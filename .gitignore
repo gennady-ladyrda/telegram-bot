@@ -1,1 +1,3 @@
 ./main/scripts/files/*
+./.gitconfig
+./.gitignore

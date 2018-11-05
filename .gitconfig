@@ -1,0 +1,19 @@
+[user]
+	name = gennady-ladyrda
+	email = Gennady.Ladyrda@yandex.ru
+[alias]
+	st = status
+	cm = commit -m
+	co = checkout
+	nb = checkout -b
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+	trustExitCode = false
+[diff]
+	guitool = kdiff3
+[difftool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+	trustExitCode = false
